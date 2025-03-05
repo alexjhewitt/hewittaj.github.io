@@ -1,4 +1,4 @@
-title: Alex Hewitt's Site # name of the site
+title: Alex Hewitt # name of the site
 author: Alex Hewitt # name of site's author
 email: alexhewitt.j@gmail.com # email of site's author
 url: https://alexjhewitt.com # root address of the site
@@ -15,10 +15,10 @@ remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
+  back_home_text: "go back" # customize text for homepage link in post layout
   date_format: "%m.%d.%Y" # customize how date is formatted
   show_description: false # show blog description in home page
-  lowercase_titles: false # show titles in lowercase in lists
+  lowercase_titles: true # show titles in lowercase in lists
 
 sass:
   style: compressed
